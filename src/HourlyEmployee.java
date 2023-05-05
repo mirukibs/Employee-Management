@@ -16,4 +16,12 @@ public class HourlyEmployee extends Employee {
     public double calculateSalary() {
         return getHourlyRate() * getHoursWorked();
     }
+
+    public void clockIn() {
+        System.out.println(getName() + " has clocked in!");
+    }
+
+    public void clockOut() {
+        System.out.println(getName() + " has clocked out!");
+    }
 }

@@ -56,4 +56,6 @@ public abstract class Employee {
     public void promote(String newTitle) {
         System.out.println(this.name + "=> Promoted to: " + newTitle);
     }
+
+    public abstract double calculateSalary();
 }

@@ -7,7 +7,7 @@ public class Manager extends Employee {
         double hourlyRate, int hoursWorked, double salary,
         double bonus
     ) {
-        super(id, name, position, hourlyRate, hoursWorked, salary);
+        super(id, name, position, 0, 0, salary);
         this.bonus = bonus;
     }
 
@@ -21,7 +21,7 @@ public class Manager extends Employee {
 
     @Override
     public double calculateSalary() {
-        return getSalary() + bonus;
+        return getSalary() + bonus; // This salary is paid monthly
     }
     
 }

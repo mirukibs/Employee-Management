@@ -6,10 +6,9 @@ public class HourlyEmployee extends Employee {
         String position,
         double hourlyRate,
         int hoursWorked,
-        int merit,
         double salary
     ) {
-        super(id,name, position, hourlyRate, hoursWorked, merit, salary);
+        super(id,name, position, hourlyRate, hoursWorked, salary);
     }
 
     @Override

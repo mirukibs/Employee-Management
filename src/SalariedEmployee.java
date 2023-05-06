@@ -8,6 +8,7 @@ public class SalariedEmployee extends Employee {
         super(id, name, position, 0, 0, salary);
     }
     
+    @Override
     public double calculateSalary() {
         return getSalary(); // This salary is paid every month
     }

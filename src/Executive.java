@@ -9,7 +9,7 @@ public class Executive extends Employee {
         double hourlyRate, int hoursWorked,
         double salary, double sharePercentage
     ) {
-        super(id, name, position, hourlyRate, hoursWorked, salary);
+        super(id, name, position, 0, 0, salary);
         this.bonus = bonus;
         this.sharePercentage = sharePercentage;
     }
